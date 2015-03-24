@@ -2,7 +2,7 @@ __author__ = 'ariel'
 
 from Genetics import Expressions, Genotypes
 from Crypto.Random import random
-##
+
 class TraitAlleles(object):
     traitPhenotypes = {"furColor" : {"dominant" : "long", "recessive" : "short"},
                        "furLength" : {"dominant" : "black", "recessive" : "brown"},
