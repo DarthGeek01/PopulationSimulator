@@ -21,7 +21,12 @@ __author__ = 'ariel'
 from Organisms import OrganismManager
 
 if __name__ == '__main__':
-
+    print("""
+    PopulationSimulator version 1, Copyright (C) 2015 Ariel Young
+    Gnomovision comes with ABSOLUTELY NO WARRANTY; for details see the 'LICENSE.txt' file
+    This is free software, and you are welcome to redistribute it
+    under certain conditions.
+    """)
 
     manager = OrganismManager()
     manager.start()
